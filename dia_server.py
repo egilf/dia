@@ -1,6 +1,6 @@
 import time
 import zmq
-import dia_pb2 as dia_proto
+import dia_msg_pb2 as dia_proto
 import numpy as np
 from matplotlib import pyplot as plt
 import NodesAsSubsets

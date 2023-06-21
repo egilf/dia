@@ -1,6 +1,6 @@
 from doctest import ELLIPSIS_MARKER
 import numpy as np
-import dia_pb2 as dia_proto
+import dia_msg_pb2 as dia_proto
 
 class Mesh:
     def __init__(self, msg: dia_proto.ProtoDIAStepStatus):
